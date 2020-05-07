@@ -1,0 +1,3 @@
+# gitignore for specific stuff in this repo
+*.exe
+*.bsp
