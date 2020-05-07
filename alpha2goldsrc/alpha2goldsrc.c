@@ -10,6 +10,9 @@
 int main(int argc, char **argv)
 {
 	
+	printf("shinola's modded alpha tools");
+	printf("---- alpha2goldsrc ----");
+	
 	if (argc < 2)
 	{
 		printf("usage: alpha2goldsrc <file.bsp>\n");
