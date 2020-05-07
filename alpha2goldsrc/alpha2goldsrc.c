@@ -10,8 +10,8 @@
 int main(int argc, char **argv)
 {
 	
-	printf("shinola's modded alpha tools");
-	printf("---- alpha2goldsrc ----");
+	printf("shinola's modded alpha tools\n");
+	printf("---- alpha2goldsrc ----\n");
 	
 	if (argc < 2)
 	{

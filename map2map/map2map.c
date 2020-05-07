@@ -4,8 +4,8 @@
 
 int main()
 {
-	printf("shinola's modded alpha tools");
-	printf("---- map2map ----");
+	printf("shinola's modded alpha tools\n");
+	printf("---- map2map ----\n");
 	
 	return 0;
 }
