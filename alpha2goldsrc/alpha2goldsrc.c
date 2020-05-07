@@ -9,6 +9,9 @@
 
 int main(int argc, char **argv)
 {
+	unsigned char bspheader[0];
+	const char *bspname;
+	FILE *bspfile;
 	
 	printf("shinola's modded alpha tools\n");
 	printf("---- alpha2goldsrc ----\n");
