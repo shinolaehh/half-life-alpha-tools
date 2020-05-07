@@ -6,6 +6,8 @@
 
 #define BSP_ALPHA	0x1D
 #define BSP_RETAIL	0x1E
+
+int main(int argc, char **argv)
 {
 	
 	if (argc < 2)
