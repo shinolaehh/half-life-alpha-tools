@@ -25,13 +25,9 @@ int main(int argc, char **argv)
 	filename = argv[1];
 	
 	/* check if there isn't a .bsp extension so it can be appended */
-	if ((strrchr(filename, '.')) == NULL)
+	if(strcmp(filename, ".bsp") == 1)
 	{
-		/* if it doesn't end in '.bsp' */
-		if(strcmp(filename, ".bsp") == 1)
-		{
-			strcat(filename, ".bsp");
-		}
+		strcat(filename, ".bsp");
 	}
 	
 	/* open the bsp file and the file stream */
