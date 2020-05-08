@@ -1,6 +1,7 @@
 @echo off
 
-if "%1" == "" goto fail
+echo shinola's modded alpha tools
+echo ---- compile ----
 
 csg %1
 bsp %1
